@@ -15,6 +15,8 @@ Bu projenin özellikleri şunlardır:
 
 Modelin test videosu üzerindeki performansı
 
+<a target="_blank" href="https://icons8.com/icon/Fzmez16u38Xl/youtube-logo">YouTube Logo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 [![youtube_logo](https://icons8.com/icon/Fzmez16u38Xl/youtube-logo)](https://www.youtube.com/watch?v=E61xVKoWljs)
 
 Modelin performansı, veri seti üzerinde maksimum mAP50 doğruluk değeri %59.2 olarak elde edilmiştir. Model, bazı durumlarda kullanılabilir yolları bulamama veya binaları enkaz sanma gibi hatalar yapabilmektedir. Bu hataların nedenleri, veri setinin küçük olması, görüntülerin kalitesiz olması, görüntülerdeki ışık ve renk değişimleri, görüntülerdeki perspektif ve açılardır.
