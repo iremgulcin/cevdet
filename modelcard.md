@@ -85,7 +85,7 @@ Modelin önyargı, risk ve teknik sınırlamalarını önlemek veya azaltmak iç
 
 Modelin pretrained halini kullanmak için aşağıdaki kodu yazarak başlayabilirsiniz.
 
-'''python
+```python
 
 import torch
 import torchvision
@@ -95,8 +95,8 @@ import matplotlib.pyplot as plt
 
 model = torch.hub.load('/file-path/model_best_output.pk')
 
+```
 
-'''
 Eğitilmiş modele [buradan]() ulaşabilirsiniz.
 
 ## Training Details
