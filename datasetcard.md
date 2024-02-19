@@ -2,30 +2,27 @@
 # Dataset Card
 ---
 
-# Dataset Card for {{ pretty_name | default("Dataset Name", true) }}
+# Dataset Card for Deprem Sonrası İHA Görüntüleri
 
 <!-- Provide a quick summary of the dataset. -->
 
-{{ dataset_summary | default("", true) }}
+Deprem Sonrası İHA Görüntüleri, deprem afetinden sonra ortaya çıkan enkazları ve kullanılabilir yolları içeren bir veri setidir. Bu veri seti, Türkiye’de 6 Şubat 2023 tarihinde yaşanan deprem sonrası haber kanallarının yayınladığı İHA görüntülerini birleştirerek oluşturulmuştur. Bu veri seti, enkazlar için debris, kullanılabilir yollar için road adında iki sınıf tanımlamaktadır. Bu veri seti, deprem afetinden sonra ortaya çıkan enkazları ve kullanılabilir yolları segmente edebilen bir model oluşturmak için kullanılmıştır.
 
 ## Dataset Details
 
 ### Dataset Description
 
+Bu veri seti, deprem afetinden sonra ortaya çıkan enkazları ve kullanılabilir yolları içeren görüntülerden oluşmaktadır. Bu veri seti, Türkiye’de 6 Şubat 2023 tarihinde yaşanan deprem sonrası haber kanallarının yayınladığı İHA görüntülerini birleştirerek oluşturulmuştur. Bu veri seti, 837 adet görüntü içermektedir. Görüntüler, deprem afetinden etkilenen farklı bölgelerden alınmıştır. Görüntülerin çözünürlüğü 1280x720 pikseldir. Görüntüler, JPG formatındadır. Bu veri seti, enkazlar için debris, kullanılabilir yollar için road adında iki sınıf tanımlamaktadır. Her görüntü, ilgili sınıflara ait segmentasyon maskeleri ile birlikte gelmektedir. Segmentasyon maskeleri, PNG formatındadır. Bu veri seti, deprem afetinden sonra ortaya çıkan enkazları ve kullanılabilir yolları segmente edebilen bir model oluşturmak için kullanılmıştır.
 <!-- Provide a longer summary of what this dataset is. -->
 
-{{ dataset_description | default("", true) }}
+- **Curated by:** Cevdet Eren Özbozkurt
 
-- **Curated by:** {{ curators | default("[More Information Needed]", true)}}
-- **License:** {{ license | default("[More Information Needed]", true)}}
+
+
 
 ### Dataset Sources [optional]
 
 <!-- Provide the basic links for the dataset. -->
-
-- **Repository:** {{ repo | default("[More Information Needed]", true)}}
-- **Paper [optional]:** {{ paper | default("[More Information Needed]", true)}}
-- **Demo [optional]:** {{ demo | default("[More Information Needed]", true)}}
 
 ## Uses
 
@@ -35,14 +32,11 @@
 
 <!-- This section describes suitable use cases for the dataset. -->
 
-{{ direct_use | default("[More Information Needed]", true)}}
-
 
 ## Dataset Structure
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
-{{ dataset_structure | default("[More Information Needed]", true)}}
 
 ## Dataset Creation
 
@@ -84,7 +78,4 @@
 {{ bias_risks_limitations | default("[More Information Needed]", true)}}
 
 
-## Citation [optional]
-
-<!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
 
