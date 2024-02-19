@@ -19,7 +19,7 @@ Model, görüntü verilerini ve etiketlerin sınırlarını kullanarak, görünt
 - **Model type:** Segmentation Model
 - **Language(s):** Python, Ultralytics
 
-### Model Sources [optional]
+### Model Sources
 
 <!-- Provide the basic links for the model. -->
 
@@ -39,7 +39,7 @@ Model, görüntüleri girdi olarak alır ve çıktı olarak görüntülerdeki ne
 - Görüntülerdeki nesnelerin özniteliklerini ve durumlarını tanımlamak
 <!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
 
-### Downstream Use [optional]
+### Downstream Use
 Model, başka bir görev için ince ayar yapmak veya başka bir sistem veya uygulamaya entegre etmek için kullanılabilir. Model, aşağıdaki gibi dolaylı kullanılabilir:
 
 - Görüntülerdeki nesneleri sınıflandırmak ve segmente etmek için bir ön işleme adımı olarak kullanmak
@@ -97,7 +97,7 @@ model = torch.hub.load('/file-path/model_best_output.pk')
 
 ```
 
-Eğitilmiş modele [buradan]() ulaşabilirsiniz.
+Eğitilmiş modele [buradan](output_model.pt) ulaşabilirsiniz.
 
 ## Training Details
 
