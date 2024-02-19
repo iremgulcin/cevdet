@@ -93,7 +93,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-model = torch.hub.load('/file-path/model_best_output.pk')
+model = torch.hub.load('/file-path/model_best_output.pt')
 
 ```
 
