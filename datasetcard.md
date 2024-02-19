@@ -48,7 +48,6 @@ Bu veri seti, deprem afetinden sonra ortaya çıkan enkazları ve kullanılabili
 
 <!-- This section describes the data collection and processing process such as data selection criteria, filtering and normalization methods, tools and libraries used, etc. -->
 
-{{ data_collection_and_processing_section | default("[More Information Needed]", true)}}
 
 #### Features and the target
 
@@ -62,20 +61,17 @@ Bu veri seti, deprem afetinden sonra ortaya çıkan enkazları ve kullanılabili
 
 <!-- This section describes the annotation process such as annotation tools used in the process, the amount of data annotated, annotation guidelines provided to the annotators, interannotator statistics, annotation validation, etc. -->
 
-{{ annotation_process_section | default("[More Information Needed]", true)}}
 
 #### Who are the annotators?
 
 <!-- This section describes the people or systems who created the annotations. -->
 
-{{ who_are_annotators_section | default("[More Information Needed]", true)}}
 
 
 ## Bias, Risks, and Limitations
 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-{{ bias_risks_limitations | default("[More Information Needed]", true)}}
 
 
 
